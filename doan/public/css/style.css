@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin Sans ', Arial, Helvetica, sans-serif;
+
+}
+/* Footer */
+.top-header{
+    background-color: #024126;
+    padding: 40px;
+}
+.logo{
+    text-align: center;
+}
+li a:hover{
+    color: #f5e8dc;
+}
+li a{
+    color: #f5e8dc;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+li{
+    float: left;
+}
+.nav-left{
+    text-align: left;
+    display: inline-block;
+    list-style-type: none;
+}
+.nav-right{
+    text-align: right;
+    display: inline-block;
+    list-style-type: none;
+}
+/* Banner */
+.wine-img{
+    background-image: url(../images/wine3-slider-bg.jpg);
+    background-color: #024126;
+    height: 670px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.wine-text h1{
+    color: white;
+    border-color: rgb(119, 108, 98);
+    position: absolute;
+    font-size: 55px;
+    line-height: 1;
+    margin-top: 150px;
+    margin-left: 230px;
+    height: 200px;
+    width: 30%;
+}
+#btn1{
+    color: rgb(255, 255, 255);
+    background: #6e0120;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 13px 23px;
+    margin-top: 360px;
+    margin-left: 235px;
+}
+#btn1:hover{
+    background-color: rgb(98, 1, 29);
+    color: white;
+}
+#btn2{
+    color: rgb(255, 255, 255);
+    background: rgb(128, 160, 147);
+    border-color: rgb(98, 1, 29) ;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 13px 23px;
+    margin-left: 10px;
+}
+#btn1:hover{
+    background-color: rgb(119, 151, 138);
+}
